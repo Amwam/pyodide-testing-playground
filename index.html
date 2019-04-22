@@ -3,7 +3,18 @@
     <link rel="stylesheet" href="./codemirror.css" />
     <script src="./codemirror.js"></script>
     <script src="./python.js"></script>
+
+    <script
+      src="https://unpkg.com/react@16/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+
     <script src="./pyodide.js"></script>
+
     <style>
       .hide-or-show {
         display: none;
@@ -14,7 +25,7 @@
     <h2>Code:</h2>
     <div id="code"></div>
     <button id="save" onclick="runCode()" class="hide-or-show">
-      Save and run
+      Run
     </button>
 
     <br />

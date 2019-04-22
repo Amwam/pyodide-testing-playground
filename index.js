@@ -8,7 +8,7 @@ languagePluginLoader.then(() => {
   const editor = document.querySelector('#python-code');
   codeEditor = CodeMirror(document.getElementById('code'), {
     value:
-      'def main():\n    return "Hello, world!"\n\n# Return value of main will output in the results below\nmain()',
+      'from js import document, window\ndef main():\n    return "Hello, world!"\n\nresult = main()\ndocument.querySelector("#result").innerText = result',
 
     lineNumbers: true,
     mode: {
@@ -23,5 +23,6 @@ languagePluginLoader.then(() => {
 function runCode() {
   const code = codeEditor.getValue();
   const resultElement = document.getElementById('result');
-  resultElement.innerText = pyodide.runPython(code);
+  const result = pyodide.runPython(code);
+  console.log(result);
 }
