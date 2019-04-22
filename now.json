@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "name": "pyodide-testing-playground",
+  "routes": [
+    { "src": "^/codemirror.css", "dest": "/codemirror.css" },
+    { "src": "^/codemirror.js", "dest": "/codemirror.js" },
+    { "src": "^/python.js", "dest": "/python.js" },
+    { "src": "^/packages.json", "dest": "/packages.json" },
+    { "src": "^/pyodide.js", "dest": "/pyodide.js" },
+    { "src": "^/index.js", "dest": "/index.js" },
+    { "src": "^/pyodide.asm.data.js", "dest": "/pyodide.asm.data.js" },
+    { "src": "^/pyodide.asm.data", "dest": "/pyodide.asm.data" },
+    { "src": "^/pyodide.asm.js", "dest": "/pyodide.asm.js" },
+    { "src": "^/pyodide.asm.wasm", "dest": "/pyodide.asm.wasm" },
+    { "src": "^/(.*)", "dest": "/index.html" }
+  ]
+}
