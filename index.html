@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./codemirror.css" />
+    <script src="./codemirror.js"></script>
+    <script src="./python.js"></script>
+    <script src="./pyodide.js"></script>
+    <style>
+      .hide-or-show {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Code:</h2>
+    <div id="code"></div>
+    <button id="save" onclick="runCode()" class="hide-or-show">
+      Save and run
+    </button>
+
+    <br />
+    <hr />
+    <h2>Result:</h2>
+    <div id="result" class="hide-or-show"></div>
+  </body>
+  <script lang="js" src="./index.js"></script>
+</html>
