@@ -22,6 +22,19 @@
     </style>
   </head>
   <body>
+    <div>
+      <input
+        class="hide-or-show"
+        type="radio"
+        name="code"
+        value="vanilla"
+        checked
+      />
+      Vanilla JS<br />
+      <input class="hide-or-show" type="radio" name="code" value="react" />
+      React<br />
+    </div>
+
     <h2>Code:</h2>
     <div id="code"></div>
     <button id="save" onclick="runCode()" class="hide-or-show">
