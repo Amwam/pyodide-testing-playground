@@ -2,6 +2,12 @@
 
 This is not a project intended to be used in a production environment. It was purely for me to experiment with [Pyodide](https://github.com/iodide-project/pyodide/)
 
+Pyodide is a Python scientific stack, compiled to WebAssembly.
+
+It provides transparent conversion of objects between Javascript and Python. When inside a browser, this means Python has full access to the Web APIs.
+
+## Running
+
 The project can be run with
 
     python server.py
