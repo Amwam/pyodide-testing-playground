@@ -1,6 +1,7 @@
 {
   "version": 2,
   "name": "pyodide-testing-playground",
+  "alias": ["amwam-pyodide-testing.now.sh"],
   "routes": [
     { "src": "^/codemirror.css", "dest": "/codemirror.css" },
     { "src": "^/codemirror.js", "dest": "/codemirror.js" },
