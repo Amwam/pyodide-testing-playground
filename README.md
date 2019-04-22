@@ -1,5 +1,8 @@
 ## Pyodide testing
 
+ - [DEMO https://amwam-pyodide-testing.now.sh](https://amwam-pyodide-testing.now.sh)
+     - WARNING: Roughly 25MB download
+
 This is not a project intended to be used in a production environment. It was purely for me to experiment with [Pyodide](https://github.com/iodide-project/pyodide/)
 
 Pyodide is a Python scientific stack, compiled to WebAssembly.
